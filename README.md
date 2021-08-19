@@ -32,19 +32,18 @@ On first launch, user is required to accept the MIT liscence agreement.
 
 | Command | Description |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| `cd [DIRECTORY]` | Changes the target working directory.
+| `cdd [FOLDER]` | Moves into folder within the working directory .
+| `cdu` | Moves 1 layer up directory tree.
+| `d save [NAME]` | Saves working directory by name.
+| `d load [NAME]` | Opens available working directory. (Pipes using `cd`).
+| `d clear [Name]` | Clears saved working directory.
+| `d list` | Lists files and folders in working directory.
+| `d list folders` | Lists folders in working directory.
+| `d list files` | Lists files in working directory.
+| `d search [name]` | Searches directory for files or folders 
 
-- `cd [DIRECTORY]` - Changes the target working directory.
-- `cdd [FOLDER]` - Moves into folder within the working directory .
-- `cdu` - Moves 1 layer up directory tree.
-- `d save [NAME]` - Saves working directory by name.
-- `d load [NAME]` - Opens available working directory. (Pipes using `cd`).
-- `d clear [Name]` - Clears saved working directory.
-- `d list` - Lists files and folders in working directory.
-- `d list folders` - Lists folders in working directory.
-- `d list files` - Lists files in working directory.
-- `d search [name]` - Searches directory for files or folders 
+
 
 ### Project Creation 
 - `create project [PROJECT_NAME] [OPTIONS]` - Creates a project 
