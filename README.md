@@ -49,7 +49,7 @@ On first launch, user is required to accept the MIT liscence agreement.
 - `project list` - Lists created projects.
 - `project [NAME]` - Lists details of existing project.
 - `project select [NAME]` - Marks project as active. (Automount)
-Selected Project Commands
+#### Selected Project Commands
 - `commit [MESSAGE]` - Starts version control commit
 - `revert` - Reverts to older version. (Requires version history) 
 - `delete` - Deletes project
