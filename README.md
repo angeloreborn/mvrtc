@@ -40,6 +40,9 @@ On first launch, user is required to accept the MIT liscence agreement.
 - `d list files` - Lists folders in working directory.
 - `d search [name]` - Searches directory for files or folders 
 
+### Project Creation 
+- `create project [PROJECT_NAME] [OPTIONS]` - Creates a project 
+   - `-styling [CSS/SCSS/CSLINT]` - Sets styling templates
 
 # Transcompilation 
 ## Creating models
