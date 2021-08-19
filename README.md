@@ -37,12 +37,29 @@ On first launch, user is required to accept the MIT liscence agreement.
 - `d clear [Name]` - Clears saved working directory.
 - `d list` - Lists files and folders in working directory.
 - `d list folders` - Lists folders in working directory.
-- `d list files` - Lists folders in working directory.
+- `d list files` - Lists files in working directory.
 - `d search [name]` - Searches directory for files or folders 
 
 ### Project Creation 
 - `create project [PROJECT_NAME] [OPTIONS]` - Creates a project 
-   - `-styling [CSS/SCSS/CSLINT]` - Sets styling templates
+#### Create Project Options 
+- `-styling [CSS/SCSS/CSLINT]` - Sets styling template.
+- `-output [DIRECTORY]` - Build project in specified directory.
+### Project Maintanance
+- `project list` - Lists created projects.
+- `project [NAME]` - Lists details of existing project.
+- `project select [NAME]` - Marks project as active. (Automount)
+Selected Project Commands
+- `commit [MESSAGE]` - Starts version control commit
+- `revert` - Reverts to older version. (Requires version history) 
+- `delete` - Deletes project
+- `rename [NAME]` - Renames project
+
+### Project Mounting
+- `mount all` - Mounts all unmounted projects
+- `unmount all` - Unmounts all projects
+- `mount [NAME]` - Mounts specific project
+- `remount` - Remounts all mounted projects
 
 # Transcompilation 
 ## Creating models
