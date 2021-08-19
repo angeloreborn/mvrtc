@@ -29,16 +29,16 @@ The list of intended `features` and `support` for the framework
 On first launch, user is required to accept the MIT liscence agreement.
 ## Command Interface 
 ### Directory Navigation 
--`cd [DIRECTORY]` - Changes the target working directory.
--`cdd [FOLDER]` - Moves into folder within the working directory .
--`cdu` - Moves 1 layer up directory tree.
--`d save [NAME]` - Saves working directory by name.
--`d load [NAME]` - Opens available working directory. (Pipes using `cd`).
--`d clear [Name]` - Clears saved working directory.
--`d list` - Lists files and folders in working directory.
--`d list folders` - Lists folders in working directory.
--`d list files` - Lists folders in working directory.
--`d search [name]` - Searches directory for files or folders 
+- `cd [DIRECTORY]` - Changes the target working directory.
+- `cdd [FOLDER]` - Moves into folder within the working directory .
+- `cdu` - Moves 1 layer up directory tree.
+- `d save [NAME]` - Saves working directory by name.
+- `d load [NAME]` - Opens available working directory. (Pipes using `cd`).
+- `d clear [Name]` - Clears saved working directory.
+- `d list` - Lists files and folders in working directory.
+- `d list folders` - Lists folders in working directory.
+- `d list files` - Lists folders in working directory.
+- `d search [name]` - Searches directory for files or folders 
 
 
 # Transcompilation 
