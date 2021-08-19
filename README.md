@@ -29,6 +29,12 @@ The list of intended `features` and `support` for the framework
 On first launch, user is required to accept the MIT liscence agreement.
 ## Command Interface 
 ### Directory Navigation 
+
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 - `cd [DIRECTORY]` - Changes the target working directory.
 - `cdd [FOLDER]` - Moves into folder within the working directory .
 - `cdu` - Moves 1 layer up directory tree.
